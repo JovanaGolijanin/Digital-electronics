@@ -1,0 +1,149 @@
+Version 8.1 Build 163 10/28/2008 SJ Full Version
+11
+989
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+BCDto7_seg
+# storage
+db|bin_to_dec.(1).cnf
+db|bin_to_dec.(1).cnf
+# case_insensitive
+# source_file
+..|BCDto7seg|BCDto7_seg.bdf
+c7edbb8fad16fb6d3fe34619791636b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+BCDto7_seg:inst8
+BCDto7_seg:inst9
+}
+# macro_sequence
+
+# end
+# entity
+komparator
+# storage
+db|bin_to_dec.(3).cnf
+db|bin_to_dec.(3).cnf
+# case_insensitive
+# source_file
+komparator.bdf
+2f8ed1c232bc6d55faaa80013c431f2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+komparator:inst
+}
+# macro_sequence
+
+# end
+# entity
+simple_muxer
+# storage
+db|bin_to_dec.(4).cnf
+db|bin_to_dec.(4).cnf
+# case_insensitive
+# source_file
+..|..|Lab2|Simple muxer|simple_muxer.bdf
+4297735c228685ee962f483add9150
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+simple_muxer:inst7
+simple_muxer:inst6
+simple_muxer:inst5
+simple_muxer:inst4
+}
+# macro_sequence
+
+# end
+# entity
+koloA1
+# storage
+db|bin_to_dec.(5).cnf
+db|bin_to_dec.(5).cnf
+# case_insensitive
+# source_file
+koloA1.bdf
+8afb941825a9fbcc17a2a94795965d95
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+koloA1:inst2
+}
+# macro_sequence
+
+# end
+# entity
+koloA2
+# storage
+db|bin_to_dec.(2).cnf
+db|bin_to_dec.(2).cnf
+# case_insensitive
+# source_file
+koloA2.bdf
+e98337415ee29033c2c1504f5ab084e8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+koloA2:inst10
+}
+# macro_sequence
+
+# end
+# entity
+bin_to_dec
+# storage
+db|bin_to_dec.(0).cnf
+db|bin_to_dec.(0).cnf
+# case_insensitive
+# source_file
+bin_to_dec.bdf
+86e9a293e174f26ce3ed97ea7d9769
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

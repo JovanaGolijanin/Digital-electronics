@@ -1,0 +1,97 @@
+|ripple_carry
+s0 <= full_adder:inst3.s
+a0 => full_adder:inst3.a
+b0 => full_adder:inst3.b
+cin => full_adder:inst3.ci
+s1 <= full_adder:inst2.s
+a1 => full_adder:inst2.a
+b1 => full_adder:inst2.b
+s2 <= full_adder:inst1.s
+a2 => full_adder:inst1.a
+b2 => full_adder:inst1.b
+s3 <= full_adder:inst.s
+a3 => full_adder:inst.a
+b3 => full_adder:inst.b
+cout <= full_adder:inst.co
+
+
+|ripple_carry|full_adder:inst3
+co <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+ci => inst5.IN0
+ci => inst6.IN0
+ci => inst3.IN0
+ci => inst9.IN0
+ci => inst10.IN0
+a => inst5.IN1
+a => inst4.IN1
+a => inst.IN0
+a => inst8.IN2
+a => inst10.IN2
+b => inst4.IN0
+b => inst6.IN1
+b => inst11.IN1
+b => inst2.IN0
+b => inst10.IN1
+s <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:inst2
+co <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+ci => inst5.IN0
+ci => inst6.IN0
+ci => inst3.IN0
+ci => inst9.IN0
+ci => inst10.IN0
+a => inst5.IN1
+a => inst4.IN1
+a => inst.IN0
+a => inst8.IN2
+a => inst10.IN2
+b => inst4.IN0
+b => inst6.IN1
+b => inst11.IN1
+b => inst2.IN0
+b => inst10.IN1
+s <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:inst1
+co <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+ci => inst5.IN0
+ci => inst6.IN0
+ci => inst3.IN0
+ci => inst9.IN0
+ci => inst10.IN0
+a => inst5.IN1
+a => inst4.IN1
+a => inst.IN0
+a => inst8.IN2
+a => inst10.IN2
+b => inst4.IN0
+b => inst6.IN1
+b => inst11.IN1
+b => inst2.IN0
+b => inst10.IN1
+s <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:inst
+co <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+ci => inst5.IN0
+ci => inst6.IN0
+ci => inst3.IN0
+ci => inst9.IN0
+ci => inst10.IN0
+a => inst5.IN1
+a => inst4.IN1
+a => inst.IN0
+a => inst8.IN2
+a => inst10.IN2
+b => inst4.IN0
+b => inst6.IN1
+b => inst11.IN1
+b => inst2.IN0
+b => inst10.IN1
+s <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+

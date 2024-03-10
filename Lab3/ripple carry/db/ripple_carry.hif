@@ -1,0 +1,68 @@
+Version 8.1 Build 163 10/28/2008 SJ Full Version
+11
+989
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ripple_carry
+# storage
+db|ripple_carry.(0).cnf
+db|ripple_carry.(0).cnf
+# case_insensitive
+# source_file
+ripple_carry.bdf
+b85503cb8dcef5a3b5c8468e53a4f3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+full_adder
+# storage
+db|ripple_carry.(1).cnf
+db|ripple_carry.(1).cnf
+# case_insensitive
+# source_file
+full_adder.bdf
+54e8a6fa3e4b3a8e446c509198527a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+full_adder:inst3
+full_adder:inst2
+full_adder:inst1
+full_adder:inst
+}
+# macro_sequence
+
+# end
+# complete
+

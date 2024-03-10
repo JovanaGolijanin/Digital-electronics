@@ -1,0 +1,91 @@
+|selekcija_i_prikaz_karaktera
+y4 <= 7_seg_dekoder:inst1.y4
+a2 => muxer_2u1x4:inst.a2
+b2 => muxer_2u1x4:inst.b2
+a1 => muxer_2u1x4:inst.a1
+b1 => muxer_2u1x4:inst.b1
+a0 => muxer_2u1x4:inst.a0
+b0 => muxer_2u1x4:inst.b0
+y5 <= 7_seg_dekoder:inst1.y5
+y6 <= 7_seg_dekoder:inst1.y6
+y0 <= 7_seg_dekoder:inst1.y0
+y3 <= 7_seg_dekoder:inst1.y3
+y1 <= 7_seg_dekoder:inst1.y1
+y2 <= 7_seg_dekoder:inst1.y2
+
+
+|selekcija_i_prikaz_karaktera|7_seg_dekoder:inst1
+y0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+d2 => inst4.IN0
+d2 => inst7.IN2
+d2 => inst10.IN2
+d2 => inst12.IN1
+d2 => y4.DATAIN
+d2 => y5.DATAIN
+d2 => inst13.IN0
+d0 => inst3.IN0
+d0 => inst5.IN0
+d0 => inst8.IN0
+y1 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+d1 => inst6.IN1
+d1 => inst.IN0
+d1 => inst9.IN1
+d1 => inst13.IN1
+y2 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+y3 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+y4 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+y5 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+y6 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|selekcija_i_prikaz_karaktera|muxer_2u1x4:inst
+y3 <= simple_muxer:inst1.pin_name5
+s => simple_muxer:inst1.s
+s => simple_muxer:inst.s
+s => simple_muxer:inst3.s
+s => simple_muxer:inst2.s
+a3 => simple_muxer:inst1.a
+b3 => simple_muxer:inst1.b
+y2 <= simple_muxer:inst.pin_name5
+a2 => simple_muxer:inst.a
+b2 => simple_muxer:inst.b
+y1 <= simple_muxer:inst3.pin_name5
+a1 => simple_muxer:inst3.a
+b1 => simple_muxer:inst3.b
+y0 <= simple_muxer:inst2.pin_name5
+a0 => simple_muxer:inst2.a
+b0 => simple_muxer:inst2.b
+
+
+|selekcija_i_prikaz_karaktera|muxer_2u1x4:inst|simple_muxer:inst1
+pin_name5 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+b => inst2.IN1
+a => inst.IN1
+
+
+|selekcija_i_prikaz_karaktera|muxer_2u1x4:inst|simple_muxer:inst
+pin_name5 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+b => inst2.IN1
+a => inst.IN1
+
+
+|selekcija_i_prikaz_karaktera|muxer_2u1x4:inst|simple_muxer:inst3
+pin_name5 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+b => inst2.IN1
+a => inst.IN1
+
+
+|selekcija_i_prikaz_karaktera|muxer_2u1x4:inst|simple_muxer:inst2
+pin_name5 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+s => inst2.IN0
+s => inst3.IN0
+b => inst2.IN1
+a => inst.IN1
+
+

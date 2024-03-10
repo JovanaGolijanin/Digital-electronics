@@ -1,0 +1,108 @@
+Version 8.1 Build 163 10/28/2008 SJ Full Version
+11
+989
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+selekcija_i_prikaz_karaktera
+# storage
+db|selekcija_i_prikaz_karaktera.(0).cnf
+db|selekcija_i_prikaz_karaktera.(0).cnf
+# case_insensitive
+# source_file
+selekcija_i_prikaz_karaktera.bdf
+9926f1d37ab82ae483a5bfe71e7ae1f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+7_seg_dekoder
+# storage
+db|selekcija_i_prikaz_karaktera.(1).cnf
+db|selekcija_i_prikaz_karaktera.(1).cnf
+# case_insensitive
+# source_file
+..|7 seg dekoder|7_seg_dekoder.bdf
+e1eaa5b52dca19aad63bf88f7b0bb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7_seg_dekoder:inst1
+}
+# macro_sequence
+
+# end
+# entity
+muxer_2u1x4
+# storage
+db|selekcija_i_prikaz_karaktera.(2).cnf
+db|selekcija_i_prikaz_karaktera.(2).cnf
+# case_insensitive
+# source_file
+..|muxer 2u1x4|muxer_2u1x4.bdf
+45ad16d723d27d88408cbe5fd382ca21
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+muxer_2u1x4:inst
+}
+# macro_sequence
+
+# end
+# entity
+simple_muxer
+# storage
+db|selekcija_i_prikaz_karaktera.(3).cnf
+db|selekcija_i_prikaz_karaktera.(3).cnf
+# case_insensitive
+# source_file
+..|Simple muxer|simple_muxer.bdf
+4297735c228685ee962f483add9150
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+muxer_2u1x4:inst|simple_muxer:inst1
+muxer_2u1x4:inst|simple_muxer:inst
+muxer_2u1x4:inst|simple_muxer:inst3
+muxer_2u1x4:inst|simple_muxer:inst2
+}
+# macro_sequence
+
+# end
+# complete
+

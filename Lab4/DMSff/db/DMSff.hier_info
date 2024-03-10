@@ -1,0 +1,26 @@
+|DMSff
+Q <= Dlec:inst1.Q
+D => Dlec:inst.D
+Clock => Dlec:inst.Ck
+Clock => inst4.IN0
+notQ <= Dlec:inst1.notQ
+
+
+|DMSff|Dlec:inst1
+Q <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D => inst4.IN0
+D => inst.IN1
+Ck => inst1.IN1
+Ck => inst.IN0
+notQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DMSff|Dlec:inst
+Q <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D => inst4.IN0
+D => inst.IN1
+Ck => inst1.IN1
+Ck => inst.IN0
+notQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

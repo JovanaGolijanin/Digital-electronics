@@ -1,0 +1,9 @@
+|RSlec
+Q <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Ck => inst1.IN0
+Ck => inst.IN1
+S => inst1.IN1
+R => inst.IN0
+notQ <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

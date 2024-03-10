@@ -1,0 +1,115 @@
+Version 8.1 Build 163 10/28/2008 SJ Full Version
+11
+989
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+DisplayA_B
+# storage
+db|DisplayA_B.(0).cnf
+db|DisplayA_B.(0).cnf
+# case_insensitive
+# source_file
+DisplayA_B.bdf
+be13eeac20cf7e32d0b266415ca5b6ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+BCDto7_seg
+# storage
+db|DisplayA_B.(1).cnf
+db|DisplayA_B.(1).cnf
+# case_insensitive
+# source_file
+..|..|Lab3|BCDto7seg|BCDto7_seg.bdf
+c7edbb8fad16fb6d3fe34619791636b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+BCDto7_seg:inst1
+BCDto7_seg:inst2
+BCDto7_seg:inst3
+BCDto7_seg:inst4
+}
+# macro_sequence
+
+# end
+# entity
+Dprihvatni_reg
+# storage
+db|DisplayA_B.(2).cnf
+db|DisplayA_B.(2).cnf
+# case_insensitive
+# source_file
+Dprihvatni_reg.bdf
+7c79b8740807f3635a91f42ed6f78c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Dprihvatni_reg:inst
+}
+# macro_sequence
+
+# end
+# entity
+Dlec
+# storage
+db|DisplayA_B.(3).cnf
+db|DisplayA_B.(3).cnf
+# case_insensitive
+# source_file
+..|Dlec|Dlec.bdf
+622895eb646a14f56c1df66eaf2d975e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Dprihvatni_reg:inst|Dlec:inst
+Dprihvatni_reg:inst|Dlec:inst1
+Dprihvatni_reg:inst|Dlec:inst2
+Dprihvatni_reg:inst|Dlec:inst3
+Dprihvatni_reg:inst|Dlec:inst4
+Dprihvatni_reg:inst|Dlec:inst5
+Dprihvatni_reg:inst|Dlec:inst6
+Dprihvatni_reg:inst|Dlec:inst7
+}
+# macro_sequence
+
+# end
+# complete
+
